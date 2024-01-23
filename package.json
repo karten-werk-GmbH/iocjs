@@ -1,0 +1,31 @@
+{
+  "name": "iocjs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/iocjs.umd.cjs",
+  "module": "./dist/iocjs.js",
+  "types": "./dist/src/types.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/iocjs.js",
+      "require": "./dist/iocjs.umd.cjs",
+      "default": "./dist/iocjs.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.1",
+    "vitest": "^1.2.1"
+  }
+}
