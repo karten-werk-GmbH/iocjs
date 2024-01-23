@@ -14,7 +14,7 @@ Define the ioc container in your main JavaScript entry file.
 
 ```
 // main.js
-import IocContainer from "@karten-werk-gmbh/iocjs"
+import IocContainer from "@hkfrei/iocjs"
 
 const appIoc = new IocContainer()
 
