@@ -13,7 +13,6 @@ export default defineConfig({
   plugins: [
     dts({
       include: ["src/IocContainer.ts", "src/types.ts"],
-      outDir: "dist/types",
     }),
   ],
 });
