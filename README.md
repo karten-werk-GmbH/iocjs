@@ -59,13 +59,15 @@ const mapPm = appIoc.get("mapPm")
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm run test`
+```
+npm run test
+```
 
 Launches the test runner in the interactive watch mode.<br />
 
-### `npm run build`
+```
+npm run build
+```
 
 Builds the app for production to the `dist` folder.<br />
 
