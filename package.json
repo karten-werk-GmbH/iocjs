@@ -2,6 +2,10 @@
   "name": "iocjs",
   "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karten-werk-GmbH/iocjs.git"
+  },
   "main": "./dist/iocjs.umd.cjs",
   "module": "./dist/iocjs.js",
   "types": "./dist/src/types.d.ts",
