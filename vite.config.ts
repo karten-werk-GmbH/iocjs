@@ -10,9 +10,5 @@ export default defineConfig({
       fileName: "iocjs",
     },
   },
-  plugins: [
-    dts({
-      include: ["src/IocContainer.ts", "src/types.ts"],
-    }),
-  ],
+  plugins: [dts()],
 });
