@@ -5,7 +5,7 @@
 ### installation
 
 ```
-npm install @karten-werk-gmbh/iocjs
+npm install @hkfrei/iocjs
 ```
 
 ### getting started
