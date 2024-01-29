@@ -6,9 +6,9 @@
     "type": "git",
     "url": "https://github.com/karten-werk-GmbH/iocjs.git"
   },
-  "main": "./dist/iocjs.umd.cjs",
+  "main": "./dist/iocjs.js",
   "module": "./dist/iocjs.js",
-  "types": "./dist/src/types.d.ts",
+  "types": "./dist/src/IocContainer.d.ts",
   "exports": {
     ".": {
       "import": "./dist/iocjs.js",
