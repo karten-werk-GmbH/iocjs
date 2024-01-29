@@ -8,7 +8,7 @@
   },
   "main": "./dist/iocjs.js",
   "module": "./dist/iocjs.js",
-  "types": "./dist/src/IocContainer.d.ts",
+  "types": "./dist/IocContainer.d.ts",
   "exports": {
     ".": {
       "import": "./dist/iocjs.js",
