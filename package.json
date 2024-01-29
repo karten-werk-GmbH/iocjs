@@ -4,7 +4,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/karten-werk-GmbH/iocjs.git"
+    "url": "git+https://github.com/karten-werk-GmbH/iocjs.git"
   },
   "main": "./dist/iocjs.js",
   "module": "./dist/iocjs.js",
