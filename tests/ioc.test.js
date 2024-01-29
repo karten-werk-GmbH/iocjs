@@ -1,4 +1,4 @@
-import IocContainer from "../src/IocContainer";
+import IocContainer from "../src/iocjs";
 import { it, expect, beforeEach } from "vitest";
 
 let container = null;
