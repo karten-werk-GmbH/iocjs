@@ -23,13 +23,13 @@ class IocContainer {
   register<T>(params: {
     name: string;
     definition: T;
-    dependencies: string[];
-    singleton: boolean;
+    dependencies?: string[];
+    singleton?: boolean;
   }) {
     const service = {
       definition: params.definition,
-      dependencies: params.dependencies,
-      singleton: params.singleton,
+      dependencies: params.dependencies || [],
+      singleton: params.singleton || false,
     };
     this.#services.set(params.name, service);
   }

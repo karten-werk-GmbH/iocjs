@@ -1,5 +1,5 @@
 export interface Service {
   definition: any;
-  dependencies: string[];
+  dependencies?: string[];
   singleton?: boolean;
 }
