@@ -1,4 +1,4 @@
-import { Service } from "./types";
+import { IRegisterParams, Service } from "./types";
 class IocContainer {
   #services: Map<string, Service>;
   #singletonInstances: Map<string, Service>;
@@ -20,12 +20,7 @@ class IocContainer {
    * @param singleton - Whether the service is a singleton.
    * @returns void
    */
-  register<T>(params: {
-    name: string;
-    definition: T;
-    dependencies?: string[];
-    singleton?: boolean;
-  }) {
+  register(params: IRegisterParams) {
     const service = {
       definition: params.definition,
       dependencies: params.dependencies || [],

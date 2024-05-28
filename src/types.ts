@@ -3,3 +3,7 @@ export interface Service {
   dependencies?: string[];
   singleton?: boolean;
 }
+
+export interface IRegisterParams extends Service {
+  name: string;
+}
