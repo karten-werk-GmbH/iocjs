@@ -11,6 +11,6 @@ export default defineConfig({
     },
   },
   plugins: [
-    dts({ include: ["./src/iocjs.ts", "./src/types.ts"], outDir: "dist" }),
+    dts({ include: ["./src/iocjs.ts", "./src/types.ts"], outDirs: "dist" }),
   ],
 });
